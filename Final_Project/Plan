@@ -1,2 +1,36 @@
-I: Four options for buildings that are present on the page
+I: Four options for buildings that are present on the page (prototype)
 O: Schematics and/or information on the different building types
+
+ * * * LANDING PAGE * * *
+The landing page will present with the district name and an address entry field
+    for the purposes of the prototype/demo this will be replaced with a drop down menu with 4 options
+        4 options:
+        - Single family building
+        - Industrial building
+        - Commercial building
+        - Multi family building
+
+* * * MAIN PAGE * * *
+After the user has selected an option they will be presented with the following information:
+    Top leftt (possible header): address of the incident 
+    bottom left: main map of the address
+    Top Right: Responding, arriving and current units
+    Bottom right (4 square grid): different angles of the building 
+    Inbetween map and grid: building information 
+
+User interaction:
+    All GUI pieces will be elements that the user will be able to interact with.
+        If they decide that the Map needs to be the main focus, they can resize
+            resizing elements will affect other elements present on screen. 
+
+* * * CSS * * *
+Text: Simple to read plain text.
+Color Scheme: Red and white with elements of black
+Images: 
+        Main elements such as the map and text will have small borders to minimize distraction while being able to provide the user a quick glance
+        Side elements will have a slightly smaller border for quick ease of visual space
+Image Behavior:
+        The user will be able to resize and zoom in on elements as needed. 
+        When one element takes over a majority of space the other elements will resize
+        When one elment takes over the entire screen, all other elments will be hidden
+            hidden elments will re appear once main image is resized smaller
