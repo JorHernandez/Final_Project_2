@@ -36,15 +36,103 @@ background-color: green
 /* Business Images */
 /*******************/
 .BusiAlpha{
-    background-image: url("../Images/Business/BusiAlpha.PNG");
+    background-image: url("https://imgur.com/f1Gl1bv");
 }
 
+.BusiBravo{
+background-image: url("https://imgur.com/2vhx2XI");
+}
+
+.BusiCharlie{
+    background-image: url("https://imgur.com/OoZgpnI");
+}
+
+BusiDelta{
+    background-image: url("https://imgur.com/JEa9CPZ");
+}
+
+.BusiMap{
+    background-image: url("https://imgur.com/hpwA8Nl");
+}
+
+.BusiInfo{
+    background-image: url("https://imgur.com/omBUZhn");
+}
 
 /* Resi Images */
 /*******************/
+.ResiAlpha{
+    background-image: url("https://imgur.com/7NxVqWZ");
+}
+.ResiBravo{
+    background-image: url("https://imgur.com/ukyb9FB");
+}
+
+.ResiCharlie{
+    background-image: url("https://imgur.com/nUM4Pi2");
+}
+
+.ResiDelta{
+    background-image: url("https://imgur.com/fqnT9k6");
+}
+
+.ResiMap{
+    background-image: url("https://imgur.com/yRVDs57");
+}
+
+.ResiInfo{
+    background-image: url("https://imgur.com/eAetpSE");
+}
 
 /* MultiResi Images */
 /*******************/
 
+.MulResiAlpha{
+    background-image: url("https://imgur.com/Qxs5EKV");
+}
+
+.MulResiBravo{
+    background-image: url("https://imgur.com/N9BBUu3");
+}
+
+.MulResiCharlie{
+    background-image: url("https://imgur.com/PKFwwzc");
+}
+
+.MulResiDelta{
+    background-image: url("https://imgur.com/i97voNG");
+}
+
+.MulResiMap{
+    background-image: url("https://imgur.com/HezkS3g");
+}
+
+.MulResiInfo{
+    background-image: url("https://imgur.com/nI6tXkH");
+}
 /* Industrial Images */
 /*******************/
+
+.IndAlpha{
+    background-image: url("https://imgur.com/O8R3jYT");
+}
+
+.IndBravo{
+    background-image: url("https://imgur.com/Eemphe0");
+}
+
+.IndCharlie{
+    background-image: url("https://imgur.com/AAK3bGN");
+}
+
+.IndDelta{
+    background-image: url("https://imgur.com/Qw3eiMQ");
+}
+
+.IndMap{
+    background-image: url("https://imgur.com/lCAkLy0");
+}
+
+.IndInfo{
+    background-image: url("https://imgur.com/7LmFJmC");
+}
