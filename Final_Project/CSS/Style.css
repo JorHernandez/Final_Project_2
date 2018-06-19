@@ -3,8 +3,11 @@ body{
 }
 
 .map{
-background-color: purple;
+
 border: 1px;
+height: 50%;
+width: 50%
+
 }
 
 .info-panel{
@@ -28,3 +31,4 @@ background-color: green
     background-color: green
 }
 
+\\map out images and names
