@@ -1,3 +1,30 @@
 body{
     background-color: #ff0000;
 }
+
+.map{
+background-color: purple;
+border: 1px;
+}
+
+.info-panel{
+    /* viewport that can scroll */
+    background-color: yellow;
+}
+
+.picture-1{
+background-color: green
+}
+
+.picture-2{
+    background-color: green
+}
+
+.picture-3{
+    background-color: green
+}
+
+.picture-4{
+    background-color: green
+}
+
