@@ -9,6 +9,7 @@
 
 $("#btnResi").click(function (e) {
     changeDisName("1234 Resi Street");
+    displayResi ();
     console.log('Click');
     event.preventDefault();
 })
@@ -41,7 +42,7 @@ function changeDisName(text) {
 }
 
 function displayResi (){
-    $(".map").
+    $(".map").toggleClass("");
 
 }
 
@@ -50,3 +51,4 @@ function displayResi (){
 // display images
 // hide other imagess
 //e preventdefault
+//nice to have: BS modal pop up for each image. 
