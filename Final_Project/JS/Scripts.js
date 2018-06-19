@@ -3,29 +3,49 @@
 
 
 //When drop down is selected:
-    //Hide the drop down menu
+    
     //Slide district name to the header
 
 
-$("#btnResi").click(function(){
+$("#btnResi").click
+{
+changeDisName("1234 Resi Street");
 console.log('Click');
-})
+event.preventDefault();
+}
 
-$("#btnInd").click(function(){
+$("#btnInd").click
+{
+    changeDisName("456 Industrial Way");
     console.log('Click2');
-    })
+    event.preventDefault();
+    }
 
-$("#btnComm").click(function(){
-console.log('Click3');
-})
+$("#btnComm").click
+{
+    changeDisName("789 Commercial Blvd");
+    console.log('Click3');
+    event.preventDefault();
+}
     
-$("#btnMResi").click(function(){
-console.log('Click4');
-})
+$("#btnMResi").click
+{
+    changeDisName("1011 Multiresi Pl");
+    console.log('Click4');
+    event.preventDefault();
+}
 
 
 
 
-function mainPage (){
-    $('#district-name')display='none';
-} 
+// changeDisName ('1234 Resi Street');
+
+function changeDisName (text) {
+$(".header-info h1").html(text);
+ }
+
+
+// change district name 
+// display images
+// hide other imagess
+//e preventdefault
