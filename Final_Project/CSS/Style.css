@@ -36,103 +36,107 @@ background-color: green
 /* Business Images */
 /*******************/
 .BusiAlpha{
-    background-image: url("https://imgur.com/f1Gl1bv");
+    background-image: url("../Images/Business/BusiAlpha.PNG");
 }
 
 .BusiBravo{
-background-image: url("https://imgur.com/2vhx2XI");
+background-image: url("../Images/Business/BusiBravo.PNG");
 }
 
 .BusiCharlie{
-    background-image: url("https://imgur.com/OoZgpnI");
+    background-image: url("../Images/Business/BusiCharlie.PNG");
 }
 
 BusiDelta{
-    background-image: url("https://imgur.com/JEa9CPZ");
+    background-image: url("../Images/Business/BusiDelta.PNG");
 }
 
 .BusiMap{
-    background-image: url("https://imgur.com/hpwA8Nl");
+    background-image: url("../Images/Business/BusiMap.PNG");
 }
 
 .BusiInfo{
-    background-image: url("https://imgur.com/omBUZhn");
+    background-image: url("../Images/Business/BusiBuilding_Info.PNG");
 }
 
 /* Resi Images */
 /*******************/
 .ResiAlpha{
-    background-image: url("https://imgur.com/7NxVqWZ");
+    background-image: url("../Images/Residential/ResiAlpha_Bravo.PNG");
 }
 .ResiBravo{
-    background-image: url("https://imgur.com/ukyb9FB");
+    background-image: url("../Images/Residential/ResiAlpha_Bravo.PNG");
 }
 
 .ResiCharlie{
-    background-image: url("https://imgur.com/nUM4Pi2");
+    background-image: url("../Images/Residential/ResiBravo_Charlie.PNG");
 }
 
 .ResiDelta{
-    background-image: url("https://imgur.com/fqnT9k6");
+    background-image: url("../Images/Residential/ResiCharlie_Delta.PNG");
 }
 
 .ResiMap{
-    background-image: url("https://imgur.com/yRVDs57");
+    background-image: url("../Images/Residential/ResiMap_View.PNG");
 }
 
 .ResiInfo{
-    background-image: url("https://imgur.com/eAetpSE");
+    background-image: url("../Images/Residential/ResiBuilding_Info.PNG");
 }
 
 /* MultiResi Images */
 /*******************/
 
 .MulResiAlpha{
-    background-image: url("https://imgur.com/Qxs5EKV");
+    background-image: url("../Images/Multi_Family/MFamAlpha_Bravo.PNG");
 }
 
 .MulResiBravo{
-    background-image: url("https://imgur.com/N9BBUu3");
+    background-image: url("../Images/Multi_Family/MFamBravo_Charlie.PNG");
 }
 
 .MulResiCharlie{
-    background-image: url("https://imgur.com/PKFwwzc");
+    background-image: url("../Images/Multi_Family/MFamCharlie_Delta.PNG");
 }
 
 .MulResiDelta{
-    background-image: url("https://imgur.com/i97voNG");
+    background-image: url("../Images/Multi_Family/MFamAlpha_Delta.PNG");
 }
 
 .MulResiMap{
-    background-image: url("https://imgur.com/HezkS3g");
+    background-image: url("../Images/Multi_Family/MFamMap_View.PNG");
 }
 
 .MulResiInfo{
-    background-image: url("https://imgur.com/nI6tXkH");
+    background-image: url("../Images/Multi_Family/MFamBuilding_Info.PNG");
 }
 /* Industrial Images */
 /*******************/
 
 .IndAlpha{
-    background-image: url("https://imgur.com/O8R3jYT");
+    background-image: url("../Images/Industrial/IndAlpha_Bravo.PNG");
 }
 
 .IndBravo{
-    background-image: url("https://imgur.com/Eemphe0");
+    background-image: url("../Images/Industrial/IndBravo_Charlie.PNG");
 }
 
 .IndCharlie{
-    background-image: url("https://imgur.com/AAK3bGN");
+    background-image: url("../Images/Industrial/IndBravo_Charlie.PNG");
 }
 
 .IndDelta{
-    background-image: url("https://imgur.com/Qw3eiMQ");
+    background-image: url("../Images/Industrial/IndCharlie_Delta.PNG");
 }
 
 .IndMap{
-    background-image: url("https://imgur.com/lCAkLy0");
+    background-image: url("../Images/Industrial/IndMap_view.PNG");
 }
 
 .IndInfo{
-    background-image: url("https://imgur.com/7LmFJmC");
+    background-image: url("../Images/Industrial/IndBuilding_Info.PNG");
 }
+
+//* Temp Background/
+//*****************/
+
