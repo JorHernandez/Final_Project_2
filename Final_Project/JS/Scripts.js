@@ -41,9 +41,8 @@ function changeDisName(text) {
     $(".header-info h1").html(text);
 }
 
-function displayResi (){
-    $(".map").toggleClass("");
-
+function displayResi () {
+    $(".map").html(<img src="../Images/Residential/ResiMap_View.PNG" />);
 }
 
 
