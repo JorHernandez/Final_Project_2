@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
             <h1>District 3</h1>
         </div>
         <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+            <button class="btn btn-secondary dropdown-toggle btn btn-dark" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 Address
             </button>
@@ -31,12 +32,12 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="map" >
-                    <img id="map" img src="../Images/Business/BusiMap.PNG" class="img-fluid" alt="Responsive image">
+                    <a href="#" div class="popMap"><img id="map" img src="../Images/Business/BusiMap.PNG" class="img-fluid" alt="Responsive image"></a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="info-panel" id="Binfo">
-                    <img id="info" img src="../Images/Multi_Family/MFamBuilding_Info.PNG" class="img-fluid" alt="Responsive image">
+                    <a href="#" div class="popInfo"><img id="info" img src="../Images/Multi_Family/MFamBuilding_Info.PNG" class="img-fluid" alt="Responsive image"></a>
                 </div>
             </div>
         </div>
@@ -47,27 +48,37 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="picture-1A" id="pic1">
-
-                    <img id="alpha" img src="../Images/Business/BusiMap.PNG" class="img-fluid" alt="Responsive image">
+                    <a href="#" div class="popAlpha"><img id="alpha" img src="../Images/Business/BusiMap.PNG" class="img-fluid" alt="Responsive image"></a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="picture-2B" id="pic2">
-                    <img id="bravo" img src="../Images/Business/BusiAlpha.PNG" class="img-fluid" alt="Responsive image">
+                    <a href="#" div class="popBravo"><img id="bravo" img src="../Images/Business/BusiAlpha.PNG" class="img-fluid" alt="Responsive image"></a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="picture-3C" id="pic3">
-                    <img id="charlie" img src="../Images/Business/BusiMap.PNG" class="img-fluid" alt="Responsive image">
+                    <a href="#" div class="popCharlie"><img id="charlie" img src="../Images/Business/BusiMap.PNG" class="img-fluid" alt="Responsive image"></a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="picture-4d" id="pic4">
-                    <img id="delta" img src="../Images/Business/BusiAlpha.PNG" class="img-fluid" alt="Responsive image">
+                    <a href="#" div class="popDelta"><img id="delta" img src="../Images/Business/BusiAlpha.PNG" class="img-fluid" alt="Responsive image"></a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">              
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <img src="" class="imagepreview" style="width: 100%;" >
+            </div>
+          </div>
+        </div>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

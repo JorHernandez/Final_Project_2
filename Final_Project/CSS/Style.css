@@ -2,32 +2,49 @@ body{
     background-color: #ff0000;
 }
 
-.map{
+header {
+    background-color: #473B38;
+    background-image: url('../Images/Styling/1200px-Diamond_Plate.jpg');
+    background-size: cover;    
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 
+.btn-primary {
+background-color: #000000;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.map{
+padding: 1em;
 border: 1px;
 height: 50%;
-width: 50%
-
+width: 75%;
 }
 
 .info-panel{
-    /* viewport that can scroll */
-    background-color: yellow;
+    padding: 1em;
+    overflow: hidden;
+    width: 100%;
 }
 
-.picture-1{
-background-color: green
+.picture-1A{
+    padding: 1em;
+    width: 100%;
 }
 
-.picture-2{
-    background-color: green
+
+.picture-2B{
+    padding: 1em;
+    width: 100%;
 }
 
-.picture-3{
-    background-color: green
+.picture-3C{
+    padding: 1em;
+    width: 100%;
 }
 
-.picture-4{
-    background-color: green
+.picture-4d{
+    padding: 1em;
+    width: 100%;
 }
-
