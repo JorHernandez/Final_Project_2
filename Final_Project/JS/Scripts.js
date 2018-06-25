@@ -30,8 +30,6 @@ function changeDisName(text) {
      $(".header-info h1").html(text);
  }
 
-
-
 function changeResi(){
     $('#map').attr('src', '../Images/Residential/ResiMap_View.PNG' );
     $('#info').attr('src','../Images/Residential/ResiBuilding_Info.PNG');
